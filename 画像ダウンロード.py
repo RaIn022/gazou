@@ -8,5 +8,5 @@ bing_crawler = BingImageCrawler(
 
 # クロール（キーワード検索による画像収集）の実行
 bing_crawler.crawl(
-    keyword="sunflower 〇〇",   # 検索キーワード（日本語もOK）
+    keyword="京都",   # 検索キーワード（日本語もOK）
     max_num=100)                    # ダウンロードする画像の最大枚数
